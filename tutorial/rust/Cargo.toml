@@ -1,0 +1,21 @@
+[package]
+name = "aiunderthehood-code-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+linfa = "0.7.1"
+linfa-linear = "0.7.1"
+tch = "0.17.0"
+polars = { version = "0.46.0", features = ["lazy"] }
+nalgebra = "0.33.2"
+rust-bert = "0.23.0"
+actix-web = "4.4.0"
+ndarray = "0.15.6"
+plotters = "0.3.7"
+rand = "0.9.1"
+rand_distr = "0.5.1"
+statrs = "0.18.0"
+linfa-logistic = "0.7.1"
+linfa-trees = "0.7.1"
+linfa-svm = "0.7.2"

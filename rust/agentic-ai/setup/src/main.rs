@@ -1,10 +1,8 @@
-use dotenvy::dotenv_override; // or dotenv()
+use dotenvy::dotenv_override;
 use std::env;
 
 fn main() {
-    // This will look for .env in the current dir, then parent, then grandparent...
-    // Perfect for a workspace setup!
-    // dotenvy::from_path("../../../../../.env").ok(); 
+    // Please ensure you are putting in the actual path of the .env file as mentioned in the README, and not the placeholder path shown below.
     dotenvy::from_path("../.env").ok(); 
 
     let api_key = env::var("GEMIN_API_KEY")

@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "ml/*",
+    "agentic-ai/*"
+]
+resolver = "2"
+
+# You can even share dependencies across ALL projects here
+[workspace.dependencies]
+tokio = { version = "1.0", features = ["full"] }
+dotenvy = "0.15"
+serde = { version = "1.0", features = ["derive"] }

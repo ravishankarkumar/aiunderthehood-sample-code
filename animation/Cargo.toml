@@ -1,0 +1,13 @@
+[package]
+name = "animation"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+murali = { version = "0.1.0", path = "../../murali" }
+# winit = "0.30"
+# wgpu = "0.20"
+# env_logger = "0.10"
+glam = { version = "0.27", features = ["bytemuck"] }
+# tracing = "0.1"
+anyhow = "1"

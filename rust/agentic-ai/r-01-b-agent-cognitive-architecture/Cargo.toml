@@ -1,0 +1,9 @@
+[package]
+name = "t-01-b-agent-cognitive-architecture"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenvy.workspace = true
+gemini-client-api.workspace = true
+tokio.workspace = true

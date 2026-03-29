@@ -1,3 +1,7 @@
 google-genai
 python-dotenv
 openai
+ollama
+pydantic
+typing
+# json

@@ -4,4 +4,7 @@ openai
 ollama
 pydantic
 typing
-# json
+typing-extensions
+dataclasses
+langgraph
+langchain-ollama
